@@ -30,22 +30,17 @@ li,ul{
         .top{
             display: flex;
             justify-content: flex-end;
-            font-size: 13px;
+            font-size: 11px;
             line-height: 30px;
             a{
                 padding: 4px;
-                margin-left: 2px;
                 font-weight: 400;
                 color: $grey-color;
                 border-left: 1px solid $first-color;
-                border-radius: 70px;
                 padding-left: 10px;
                 padding-right: 10px;
                 &:hover{
-                    border-top-right-radius: 70px;
-                    border-bottom-right-radius: 70px;
-                    background-color: $btn-color;
-                    color: white;
+                    border-bottom: 1px solid $first-color;
                     transition: $transition;
                 }
                 &:nth-child(4){
