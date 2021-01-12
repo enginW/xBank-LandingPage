@@ -7,6 +7,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -343,13 +344,28 @@ template {
   display: none;
 }
 
+.fa-facebook {
+  color: #4267B2;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+.fa-linkedin-in {
+  color: #0072b1;
+}
+
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Playfair Display", serif;
-  font-size: 100px;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -358,10 +374,5 @@ a {
 
 li, ul {
   list-style: none;
-}
-
-h1 span {
-  font-size: 150px;
-  color: green;
 }
 /*# sourceMappingURL=main.css.map */
