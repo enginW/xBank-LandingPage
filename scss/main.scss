@@ -1,0 +1,23 @@
+@import "_normalize.scss";
+@import "_fonts.scss";
+@import "_variable.scss";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $first-font;
+    font-size: 100px;
+}
+a{
+    text-decoration: none;
+}
+li,ul{
+    list-style: none;
+}
+
+h1 span{
+    font-size: 150px;
+    color:green;
+}
