@@ -22,6 +22,7 @@ li,ul{
     margin:0 auto;
     position: relative;
 }
+
 #head{
     .head-top{
         width: 100%;
@@ -249,6 +250,25 @@ li,ul{
             border: 1px solid $first-color;
             background-color: white;
             color: $first-color;
+        }
+    }
+}
+.sticky{
+    width: 100vh;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    .sticky-banner{
+        width: 120px;
+        height: auto;
+        position: sticky;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
 }

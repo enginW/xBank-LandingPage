@@ -700,4 +700,29 @@ li, ul {
   background-color: white;
   color: #7dbe32;
 }
+
+.sticky {
+  width: 100vh;
+  height: 200vh;
+  position: absolute;
+  top: 0;
+}
+
+.sticky .sticky-banner {
+  width: 120px;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 20px;
+}
+
+.sticky .sticky-banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */
