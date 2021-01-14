@@ -284,9 +284,13 @@ li,ul{
         align-items: center;
         justify-content: space-between;
         .footer-logo{
-            width: 100px;
-            height: auto;
+            width: 200px;
+            height: 80px;
             margin-left: -10px;
+            background-image: url(../img/footer-logo.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .footer-middle a{
             color:$grey-color;
