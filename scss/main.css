@@ -702,8 +702,8 @@ li, ul {
 }
 
 .sticky {
-  width: 100vh;
-  height: 200vh;
+  width: 10%;
+  height: 110vh;
   position: absolute;
   top: 0;
 }
@@ -724,5 +724,53 @@ li, ul {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#footer {
+  width: 100%;
+  height: 90px;
+  margin-top: 50px;
+}
+
+#footer .container {
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid #e6d2d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .container .footer-logo {
+  width: 100px;
+  height: auto;
+  margin-left: -10px;
+}
+
+#footer .container .footer-middle a {
+  color: #a29797;
+  font-size: 13px;
+  letter-spacing: .6px;
+}
+
+#footer .container .footer-middle a:nth-child(1) {
+  margin: 0 20px;
+}
+
+#footer .container .footer-right a {
+  color: #a29797;
+  font-size: 12px;
+  margin-right: 15px;
+  letter-spacing: .4px;
+}
+
+#footer .container a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

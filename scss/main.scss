@@ -254,8 +254,8 @@ li,ul{
     }
 }
 .sticky{
-    width: 100vh;
-    height: 200vh;
+    width: 10%;
+    height: 110vh;
     position: absolute;
     top: 0;
     .sticky-banner{
@@ -269,6 +269,41 @@ li,ul{
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+    }
+}
+#footer{
+    width: 100%;
+    height: 90px;
+    margin-top: 50px;
+    .container{
+        width: 100%;
+        height: 90px;
+        border-top: 1px solid rgb(230, 210, 210);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer-logo{
+            width: 100px;
+            height: auto;
+            margin-left: -10px;
+        }
+        .footer-middle a{
+            color:$grey-color;
+            font-size: 13px;
+            letter-spacing: .6px;
+            &:nth-child(1){
+                margin: 0 20px;
+            }
+        }
+        .footer-right a{
+            color:$grey-color;
+            font-size: 12px;
+            margin-right: 15px;
+            letter-spacing: .4px;
+        }
+        a:hover{
+            text-decoration: underline;
         }
     }
 }
